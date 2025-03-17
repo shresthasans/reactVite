@@ -1,26 +1,20 @@
-import React, { useState } from "react";
-import Button from "../../components/Button";
+import React from 'react'
+import Button from '../../components/Button'
 
 const Home = () => {
-  const [number, setNumber] = useState(0);
 
-  const handleIncrement = () => {
-    setNumber(number + 1);
-  };
-
-  const handleDecrement = () => {
-    if (number === 0) return;
-    setNumber(number - 1);
-  };
+  const sayHi = ()=>{
+    alert("Hello")
+  }
 
   return (
-    <>
-      <h1>{number}</h1>
+    <div>
+      <>
+        <h1>This is Homepage</h1>
+        <Button title="This is a test button." clickFunc={sayHi} />
+      </>
+    </div>
+  )
+}
 
-      <Button clickEvent={handleIncrement} name="Increment +" />
-      <Button clickEvent={handleDecrement} name="Decrement -" />
-    </>
-  );
-};
-
-export default Home;
+export default Home
