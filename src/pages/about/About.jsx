@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Button from '../../components/Button';
+import Nav from '../../components/Nav';
 
 const About = () => {
   const [number, setNumber] = useState(10);
@@ -15,6 +16,7 @@ const About = () => {
 
   return (
     <>
+      <Nav />
       <h1>{number}</h1>
       <Button clickFunc={numIncrease} name="Increment ++" />
       <Button clickFunc={numDecrease} name="Decrement --" />
