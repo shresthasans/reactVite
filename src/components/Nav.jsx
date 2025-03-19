@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div >
+    <div className="flex justify-between">
     <Link to="/">Logo</Link>
-    <nav>
-      <ul>
+    <nav >
+      <ul className="flex items-center gap-4">
         <li>
           <Link to="../About">About</Link>
         </li>

@@ -18,7 +18,7 @@ const About = () => {
     <>
       <Nav />
       <h1>{number}</h1>
-      <Button clickFunc={numIncrease} name="Increment ++" />
+      <Button customClass={"bg-black text-white"} clickFunc={numIncrease} name="Increment ++" />
       <Button clickFunc={numDecrease} name="Decrement --" />
     </>
   )

@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Button = (props) => {
-  const {type="button", name="Default", clickFunc, title} = props
+  const {type="button", name="Default", clickFunc, title, customClass="bg-red-600 text-white px-3 py-2"} = props
   return (
     <>
-      <button type={type} onClick={clickFunc} title={title}>{name}</button>
+      <button className={customClass} type={type} onClick={clickFunc} title={title}>{name}</button>
     </>
   )
 }
