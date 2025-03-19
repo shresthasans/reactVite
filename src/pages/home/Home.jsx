@@ -11,9 +11,10 @@ const Home = () => {
   return (
     <div>
       <>
+      <Nav />
         <h1>This is Homepage</h1>
         <Button title="This is a test button." clickFunc={sayHi} />
-        <Nav />
+        
       </>
     </div>
   )
