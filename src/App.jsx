@@ -6,8 +6,8 @@ import Contact from "./pages/contact/Contact";
 import NotFound from "./pages/error/NotFound";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
-import Blog from "./pages/blog/Blog";
-import Add_blog from "./pages/blog/Add_blog";
+import AddBlog from "./pages/blog/AddBlog";
+import BlogDetail from "./pages/blog/BlogDetail";
 
 function App() {
   return (
@@ -19,9 +19,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/add-blog" element={<Add_blog />} />
-
+          <Route path="/addblog" element={<AddBlog />} />
+          <Route path="/blogdetail" element={<BlogDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
