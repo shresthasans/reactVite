@@ -15,10 +15,10 @@ const BlogDetail = () => {
   return (
     <Layout>
       <div className="flex gap-8">
-        <div className="w-3/4">
+        <div className="w-full md:w-3/4">
           <div className="flex flex-col gap-6">
             <header>
-              <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start flex-col gap-4 md:gap-0  md:flex-row">
                 <div className="flex flex-col gap-2">
                   <h2 className="text-2xl">
                     <strong>Content title</strong>
@@ -87,7 +87,7 @@ const BlogDetail = () => {
             </main>
           </div>
         </div>
-        <div className="w-1/4">
+        <div className="w-1/4 hidden md:block">
           <h2>Sidebar</h2>
         </div>
       </div>
