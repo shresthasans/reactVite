@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Layout = (props) => {
   const { children } = props;
   return (
-    <div class="h-dvh flex flex-col">
+    <div className="h-dvh flex flex-col">
       <Nav />
       <main className="flex justify-center py-8 flex-auto overflow-x-hidden overflow-y-auto">
         <div className="flex overflow-y-auto w-full">

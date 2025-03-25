@@ -5,7 +5,7 @@ import BlogForm from "./components/BlogForm";
 const AddBlog = () => {
   return (
     <Layout>
-	    <BlogForm />
+	    <BlogForm pageTitle={"Add"}/>
     </Layout>
   );
 };

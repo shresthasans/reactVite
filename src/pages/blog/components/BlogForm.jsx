@@ -1,12 +1,12 @@
 import React from 'react'
 
 const BlogForm = (props) => {
-  const { children } = props;
+  const {pageTitle} = props;
   return (
    
     <div className="bg-blue-100 p-8 rounded-2xl w-full">
         <div className="flex">
-          <h1 className="font-bold uppercase text-5xl">Create Blog</h1>
+          <h1 className="font-bold uppercase text-5xl">{pageTitle} Blog</h1>
         </div>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
           <input
