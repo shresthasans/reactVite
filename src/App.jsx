@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog/add" element={<AddBlog />} />
           <Route path="/blog/edit" element={<EditBlog />} />
-          <Route path="/blogdetail" element={<BlogDetail />} />
+          <Route path="/blog/id" element={<BlogDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
