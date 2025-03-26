@@ -100,7 +100,7 @@ const Form = (props) => {
                   Don't have an account?{" "}
                   <Link
                     to={"../Register"}
-                    className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                    className="font-medium text-blue-600 hover:underline dark:text-primary-500 "
                   >
                     Sign up
                   </Link>
@@ -110,7 +110,7 @@ const Form = (props) => {
                   Already have an account?{" "}
                   <Link
                     to={"../Login"}
-                    className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                    className="font-medium text-blue-600 hover:underline dark:text-primary-500"
                   >
                     Sign in
                   </Link>
